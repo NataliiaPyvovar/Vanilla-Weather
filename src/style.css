@@ -91,3 +91,14 @@ body {
     font-family: "Satisfy";
     font-size: 20px;
      }
+     .name {
+      color: #00204a;
+      font-family: "Satisfy";
+      font-size: 20px;
+     }
+     .github{
+      color: #00204a;
+     }
+     .netlify{
+      color: #00204a;
+     }

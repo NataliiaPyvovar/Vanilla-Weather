@@ -39,6 +39,7 @@
 
       <div class="search-form" id="search-form">
         <form>
+
           <input
             class="enter-sity"
             type="text"
@@ -48,7 +49,11 @@
             id="city-input"
           />
 
-          <input type="submit" value="Search" class="search-sity" />
+          <input 
+          type="submit" 
+          value="Search" 
+          class="search-sity" />
+
           <input
             type="submit"
             value="Current"
@@ -56,6 +61,7 @@
             id="get-current-city"
           />
         </form>
+        
       </div>
       <h2 id="city">
         Kyiv
@@ -82,61 +88,14 @@
       <div class="currentTemperature">
         <span class="temperature" id="temperature"></span
         ><span class="units">
-          <a href="#" id="celsius-link">°C</a> |
-          <a href="#" id="fahrenheit-link">°F</a>
+          <a href="#" id="celsius-link">°C</a> 
         </span>
       </div>
 
       <hr />
-
-      <div class="row">
-        <div class="card-group">
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <p>Wednesday <br />+3°C</p>
-                <img src="images/weather1.svg" alt="" width="50%" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <p>Thursday <br />+2°C</p>
-                <img src="images/weather5.svg" alt="" width="50%" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <p>Friday <br />+5°C</p>
-                <img src="images/weather5.svg" alt="" width="50%" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <p>Saturday <br />+3°C</p>
-                <img src="images/weather1.svg" alt="" width="50%" />
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card">
-              <div class="card-body">
-                <p>Sunday <br />+2°C</p>
-                <img src="images/weather1.svg" alt="" width="50%" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
+      <div class="weather-forecast" id="forecast"></div>
+      
       <footer>
         This project was coded by Nataliia Pyvovar and is <a href="https://github.com/NataliiaPyvovar/Vanilla-Weather" target="_blank" rel="noopener noreferrer">open-sourced on GitHub</a> and <a href="https://fluffy-syrniki-1db16a.netlify.app/" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
       </footer>

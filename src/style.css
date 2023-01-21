@@ -62,13 +62,7 @@ body {
     padding-bottom: 6px;
     padding-top: 6px;
   }
-  .card {
-    background: transparent;
-    margin-left: 10px;
-  }
-  .card-group {
-    text-align: center;
-  }
+ 
   
   .currentTemperature {
     color: #00204a;
@@ -91,3 +85,9 @@ body {
       .search-form{
         text-align: center;
       }
+     .weather-forecast-date{
+      color: #00204a;
+    text-align: center;
+    font-family: "Satisfy";
+    font-size: 20px;
+     }
